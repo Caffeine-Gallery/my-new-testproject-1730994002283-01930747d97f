@@ -1,0 +1,24 @@
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.keypad button {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.col-span-4 {
+    grid-column: span 4;
+}
+
+#display {
+    font-size: 24px;
+    text-align: right;
+}
